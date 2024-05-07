@@ -1,0 +1,23 @@
+.slider_banner {
+    position: relative;
+}
+
+.slider_card {
+    position: absolute;
+    top: 65%;
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 999;
+    display: block !important;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #FFF !important;
+    outline: none !important;
+    box-shadow: none !important;
+}

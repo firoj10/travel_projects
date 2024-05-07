@@ -1,0 +1,37 @@
+.Why_us_main{
+    background: #F4F4FB;
+
+}
+.destination_heder {
+    font-family: Gilroy-SemiBold;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 24px;
+}
+.destination_heder_div {
+    position: relative;
+    margin-bottom: 40px;
+}
+.arrow_line {
+    position: absolute;
+    text-align: center;
+    width: 54px;
+    height: 0px;
+    bottom: -16%;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 0px;
+    border: 2px;
+    opacity: 0px;
+    border: 2px solid #5856D6
+}
+.whyus_content{
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+}

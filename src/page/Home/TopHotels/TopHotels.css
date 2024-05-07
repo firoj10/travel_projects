@@ -1,0 +1,116 @@
+.topHotels_heder {
+    font-family: Gilroy-SemiBold;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    margin: 48px 0px;
+
+
+}
+
+.topHotels_heder_div {
+    position: relative;
+   
+   
+}
+
+.arrow_line {
+    position: absolute;
+    text-align: center;
+    width: 54px;
+    height: 0px;
+    bottom: -16%;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 0px;
+    border: 2px;
+    opacity: 0px;
+    border: 2px solid #5856D6
+}
+
+.topHotels__img_div {
+    box-shadow: 0px 0px 12px 0px #0000001F;
+    border: 0px !important;
+
+}
+
+.topHotels__img_div h4 {
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 27px;
+    text-align: left;
+    padding: 8px 0px !important;
+    margin-bottom: 0px;
+}
+
+.topHotels__img_div p {
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #768089;
+    margin-bottom: 0px;
+
+}
+
+.topHotels__img_div .review {
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.topHotels_img {
+    position: relative;
+    width: 100%;
+}
+
+.topHotels_img img {
+    width: 100%;
+}
+
+.topHotels_icon {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    z-index: 55;
+
+}
+
+.heart {
+    color: #fff;
+    border: 1.5px;
+    opacity: 0px;
+
+    font-size: 24px;
+
+}
+
+.topHotels_icon span {
+    background-color: #a3b8d099;
+    border-radius: 50%;
+    padding: 4px 2px 6px 2px;
+}
+
+.card_details {
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 34px;
+}
+
+.star_reting {
+    color: #FFCC00;
+    font-size: 16px !important;
+    padding-left: 1px;
+
+}
+.review_text{
+    padding-left: 4px;
+}
+.location{
+    font-size: 16px !important;
+}

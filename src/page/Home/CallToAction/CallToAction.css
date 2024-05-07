@@ -1,0 +1,6 @@
+
+.call_action img{
+ width: 100%;
+ object-fit: cover;
+ padding: 40px 12px;
+}

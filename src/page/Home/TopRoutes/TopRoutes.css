@@ -1,0 +1,39 @@
+.route_header {
+    font-family: Gilroy-SemiBold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+.route_text {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    
+}
+.route_icon{
+    font-size: 24px;
+}
+.routes{
+    padding: 12px 0px;
+    margin-bottom: 0px;
+}
+@media (max-width: 600px) {
+    .routes{
+        padding: 9px 0px;
+        margin-bottom: 0px;
+    }
+    .route_text {
+        font-family: Gilroy-Medium;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        
+    }
+    .route_icon{
+        font-size: 19px;
+    }
+    
+}

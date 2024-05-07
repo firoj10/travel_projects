@@ -1,0 +1,108 @@
+.brand_logo {
+    width: 160px;
+    height: 80px;
+    opacity: 0px;
+    /* width: 187px;
+    height: 100px;
+    opacity: 0px; */
+
+}
+
+.menu_item {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #0F182E;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.menu_itemss {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    text-align: left;
+    color: #0F182E;
+    margin-top: 7px;
+    margin-right: 40px !important;
+}
+
+.active_button {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+
+}
+
+.deactive_button {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    color: #0F182E;
+    background: none;
+    margin-right: 2px;
+}
+
+/* Style for select */
+/* select {
+    width: 100%;
+    height: 40px;
+    padding: 6px 45px 6px 15px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("../images/select-bg.jpg") no-repeat scroll 0 0 transparent;
+    text-indent: 0.01px;
+    text-overflow: "";
+  }
+   */
+/* Hidden select default on ie */
+/* select::-ms-expand{
+    display: none;
+  }
+  
+  /* Style for wrap select arrow */
+.wrap-select-arrow {
+    position: relative;
+}
+
+/* Style for arrow */
+.select-arrow {
+    position: absolute;
+    top: 3px;
+    right: -10px;
+
+    pointer-events: none;
+}
+
+/* Arrow down */
+/* .arrow-down {
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid #4A4A4A;
+  } */
+
+/* Arrow up */
+/* .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #4A4A4A;
+    margin-bottom: 3px;
+  } */
+ @media (max-width: 768px) {
+
+
+    .brand_logo {
+        width: 107px;
+        height: 56px;
+
+
+    }
+}
