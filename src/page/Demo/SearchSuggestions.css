@@ -1,0 +1,43 @@
+.suggestions_list_div{
+    background-color: #FFF;
+    z-index: 999;
+}
+.suggestions_list{
+   color: black;
+   z-index: 999; 
+   padding: 5px;
+}
+.suggestions_list:hover{
+    background-color: #928e8e76;
+    padding: 5px;
+    border-radius: 5px 5px 0px 5px;
+}
+.suggestions_title{
+   font-size: 14px;
+   margin-bottom: 0px;
+   font-weight: 600; 
+}
+.suggestions_content{
+    font-size: 12px;
+    margin-bottom: 0px;
+    font-weight: 400; 
+}
+.suggestions_icon{
+    font-size: 18px;
+  padding-right: 16px !important; 
+  color: #5856d6;
+}
+.suggestions_icon:hover{
+    font-size: 18px;
+  padding-right: 16px !important; 
+  color: antiquewhite;
+}
+.suggestions_btn{
+background-color: #5856d6 !important;
+padding: 5px !important;
+border-radius: 10px !important;
+font-size: 12px !important;
+font-weight: 400;
+color: #FFF !important;
+
+}

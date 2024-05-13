@@ -20,33 +20,25 @@ const Contact = () => {
         <div className="footer_main">
             <div className=" container">
                 <div className="footer_top_content" style={{ margin: '40px 12px' }}>
-                    {/* <div className="row">
-                        <div className="col-12 col-md-6  col-lg-4" >
-                            
-
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-4 " >
-                            
-                        </div>
-                        <div className="col-12 col-md-6  col-lg-4" >
-                        </div>
-                    </div> */}
                     <div className="row">
-                        <div className="col-12 col-md-6 col-lg-2" >
-                        <h4 className="contact_header">QUON</h4>
-                            <p className="routes"><span className="route_icon"><MdOutlineKeyboardArrowRight /></span><span className="route_text">About Us</span></p>
-                            <p className="routes"><span className="route_icon"><MdOutlineKeyboardArrowRight /></span><span className="route_text">Privacy & Policy</span></p>
-                            <p className="routes"><span className="route_icon"><MdOutlineKeyboardArrowRight /></span><span className="route_text">FAQs</span></p>
+                        <div className="col-12 col-md-4 col-lg-4 col-xl-4" >
+                            <h4 className="contact_header mb-0">QUON</h4>
+                            <div className="d-flex justify-content-between">
+                                <div>
+                                    <p className="routes"><span className="route_icon"><MdOutlineKeyboardArrowRight /></span><span className="route_text">About Us</span></p>
+                                    <p className="routes"><span className="route_icon"><MdOutlineKeyboardArrowRight /></span><span className="route_text">Privacy & Policy</span></p>
+                                    <p className="routes"><span className="route_icon"><MdOutlineKeyboardArrowRight /></span><span className="route_text">FAQs</span></p>
+                                </div>
+                                <div>
+                                    <p className="routes"><span className="route_icon"><MdOutlineKeyboardArrowRight /></span><span className="route_text">Contact Us</span></p>
+                                    <p className="routes"><span className="route_icon"><MdOutlineKeyboardArrowRight /></span><span className="route_text">My Account</span></p>
+                                </div>
+                            </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-2" >
-                            <p className="routes"><span className="route_icon"><MdOutlineKeyboardArrowRight /></span><span className="route_text">Contact Us</span></p>
-                            <p className="routes"><span className="route_icon"><MdOutlineKeyboardArrowRight /></span><span className="route_text">My Account</span></p>
-
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-4 " >
-                        <h4 className="contact_header">Need Help ?</h4>
-                            <p className="routes"><span className="route_contact_icon"><FiPhone /></span><span className="route_text">( +966 ) 5123456789</span></p>
-                            <p className="routes"><span className="route_contact_icon"><HiOutlineMail /></span><span className="route_text">support@quou.com</span></p>
+                        <div className="col-12 col-md-4 col-lg-5 col-xl-4 " >
+                            <h4 className="contact_header">Need Help ?</h4>
+                            <p className="routes "><span className="route_contact_icon"><FiPhone /></span><span className="route_text">( +966 ) 5123456789</span></p>
+                            <p className="routes "><span className="route_contact_icon"><HiOutlineMail /></span><span className="route_text">support@quou.com</span></p>
                             <p>
                                 <span><img className="social_icon" src={facebook} alt="" /></span>
                                 <span><img className="social_icon" src={Insta} alt="" /></span>
@@ -57,55 +49,64 @@ const Contact = () => {
                                 <span><img className="social_icon" src={X} alt="" /></span>
                             </p>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-4 " >
-                        <p className="contact_header">Download our app now!</p>
+                        <div className="col-12 col-md-4 col-lg-3 col-xl-4" >
+                            <p className="contact_header">Download our app now!</p>
 
-                            <p className="routes"><img src={Google} alt="" /></p>
-                            <p className="routes"><img src={App} alt="" /></p>
+                            <p className="routes"><img className="img-fluid" src={Google} alt="" /></p>
+                            <p className="routes"><img className="img-fluid" src={App} alt="" /></p>
 
-                            <p className="routes"><img src={Huawei} alt="" /></p>
+                            <p className="routes"><img className="img-fluid" src={Huawei} alt="" /></p>
 
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="row justify-content-between align-items-center mx-0">
-                        <div className="col-12 col-md-1">
-                            <img className="footer_logo" src={logo} alt="" />
-                        </div>
-                        <div className="col-12 col-md-3 px-0">
-                            <p className="footer_content mb-0">All rights reserved. Quon 2023</p>
-                        </div>
-                        <div className="col-12 col-md-4">
+                    <div className="row ">
+                        <div className="col-12 col-md-6 col-lg-5 col-xl-3">
+                            <div className="d-flex  justify-content-between align-items-center">
+                                <div>
+                                    <img className="footer_logo" src={logo} alt="" />
+                                </div>
+                                <div>
+                                    <p className="footer_content mb-0">All rights reserved. Quon 2023</p>
 
-                        </div>
-                        <div className="col-12 col-md-1 px-0">
-                            <p className="side_map mb-0 ">Site Map</p>
-                        </div>
-                        <div className="col-12 col-md-1">
-                            <div className="wrap-select-arrow border-0 menu_item">
-                                <select className="form-control active border-0 menu_item new_itemsf" >
-                                    <option className='' selected="selected">العربية</option>
-                                    <option className=''>العربية</option>
-                                </select>
-                                <div className="select-arrow ">
-                                    <CiGlobe />
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-1">
-                            <select name="flavor" className="border-0 footer_sar new_itemsf">
-                                <option className="menu_item">Sar</option>
-                                <option className="menu_item">Sar</option>
-                                <option className="menu_item">Sar</option>
-                                <option className="menu_item">Sar</option>
-                            </select>
+                        <div className="col-12 col-md-1 col-lg-3 col-xl-6">
+                        </div>
+                        <div className="col-12 col-md-5 px-0 col-lg-4 col-xl-3">
+                            <div className="d-flex footer_selects justify-content-between align-items-center">
+                                <div >
+                                    <p className="side_map mb-0 ">Site Map</p>
+                                </div>
+
+                                <div className="wrap-select-arrow border-0 menu_item">
+                                    <select className="form-control active border-0 menu_item new_itemsf" >
+                                        <option className='' selected="selected">العربية</option>
+                                        <option className=''>العربية</option>
+                                    </select>
+                                    <div className="select-arrow ">
+                                        <CiGlobe />
+                                    </div>
+                                </div>
+                                <div>
+
+                                    <select name="flavor" className="border-0 footer_sar new_itemsf">
+                                        <option className="menu_item">Sar</option>
+                                        <option className="menu_item">Sar</option>
+                                        <option className="menu_item">Sar</option>
+                                        <option className="menu_item">Sar</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
+        // </div >
     );
 };
 export default Contact;

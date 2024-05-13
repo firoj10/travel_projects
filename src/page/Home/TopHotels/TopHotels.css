@@ -1,3 +1,10 @@
+.topHotels_content{
+   
+        padding: 12px 8px !important;
+        /* width: 100% !important; */
+        height: fit-content;  
+}
+
 .topHotels_heder {
     font-family: Gilroy-SemiBold;
     font-size: 32px;

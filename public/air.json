@@ -1,0 +1,497 @@
+[
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Bamiyan",
+        "Airport_Code": "BIN",
+        "Airport_Name": "Bamiyan",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Bost",
+        "Airport_Code": "BST",
+        "Airport_Name": "Bost",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Chakcharan",
+        "Airport_Code": "CCN",
+        "Airport_Name": "Chakcharan",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Darwaz",
+        "Airport_Code": "DAZ",
+        "Airport_Name": "Darwaz",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Faizabad",
+        "Airport_Code": "FBD",
+        "Airport_Name": "Faizabad",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Farah",
+        "Airport_Code": "FAH",
+        "Airport_Name": "Farah",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Gardez",
+        "Airport_Code": "GRG",
+        "Airport_Name": "Gardez",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Ghazni",
+        "Airport_Code": "GZI",
+        "Airport_Name": "Ghazni",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Herat",
+        "Airport_Code": "HEA",
+        "Airport_Name": "Herat",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Jalalabad",
+        "Airport_Code": "JAA",
+        "Airport_Name": "Jalalabad",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Kabul",
+        "Airport_Code": "KBL",
+        "Airport_Name": "Khwaja Rawash",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Kandahar",
+        "Airport_Code": "KDH",
+        "Airport_Name": "Kandahar",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Khost",
+        "Airport_Code": "KHT",
+        "Airport_Name": "Khost",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Khwahan",
+        "Airport_Code": "KWH",
+        "Airport_Name": "Khwahan",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Kunduz",
+        "Airport_Code": "UND",
+        "Airport_Name": "Kunduz",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Kuran-O-Munjan",
+        "Airport_Code": "KUR",
+        "Airport_Name": "Kuran-O-Munjan",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Maimana",
+        "Airport_Code": "MMZ",
+        "Airport_Name": "Maimana",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Mazar-I-Sharif",
+        "Airport_Code": "MZR",
+        "Airport_Name": "Mazar-I-Sharif",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Nimroz",
+        "Airport_Code": "IMZ",
+        "Airport_Name": "Nimroz",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Qala Nau",
+        "Airport_Code": "LQN",
+        "Airport_Name": "Qala Nau",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Sardeh Band",
+        "Airport_Code": "SBF",
+        "Airport_Name": "Sardeh Band",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Sheghnan",
+        "Airport_Code": "SGA",
+        "Airport_Name": "Sheghnan",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Taluqan",
+        "Airport_Code": "TQN",
+        "Airport_Name": "Taluqan",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Tirinkot",
+        "Airport_Code": "TII",
+        "Airport_Name": "Tirinkot",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Urgoon",
+        "Airport_Code": "URN",
+        "Airport_Name": "Urgoon",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Uruzgan",
+        "Airport_Code": "URZ",
+        "Airport_Name": "Uruzgan",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Afghanistan",
+        "City_name": "Zaranj",
+        "Airport_Code": "ZAJ",
+        "Airport_Name": "Zaranj",
+        "Country_Abbrev.": "AF",
+        "World_Area_Code": "701"
+    },
+    {
+        "Country_name": "Albania",
+        "City_name": "Tirana",
+        "Airport_Code": "TIA",
+        "Airport_Name": "Rinas",
+        "Country_Abbrev.": "AL",
+        "World_Area_Code": "0"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Adrar",
+        "Airport_Code": "AZR",
+        "Airport_Name": "Adrar",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Algiers",
+        "Airport_Code": "ALG",
+        "Airport_Name": "Houari Boumediene",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Annaba",
+        "Airport_Code": "AAE",
+        "Airport_Name": "Les Salines",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Batna",
+        "Airport_Code": "BLJ",
+        "Airport_Name": "Batna",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Bechar",
+        "Airport_Code": "CBH",
+        "Airport_Name": "Leger",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Bejaia",
+        "Airport_Code": "BJA",
+        "Airport_Name": "Bejaia",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Biskra",
+        "Airport_Code": "BSK",
+        "Airport_Name": "Biskra",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Bordj Badji Mokhtar",
+        "Airport_Code": "BMW",
+        "Airport_Name": "Bordj Badji Mokhtar",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Boussaada",
+        "Airport_Code": "BUJ",
+        "Airport_Name": "Ain Eddis",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Chlef",
+        "Airport_Code": "CFK",
+        "Airport_Name": "Abou Bakr Belkaid",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Constantine",
+        "Airport_Code": "CZL",
+        "Airport_Name": "Ain El Bey",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Djanet",
+        "Airport_Code": "DJG",
+        "Airport_Name": "Inedbirenne",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "El Golea",
+        "Airport_Code": "ELG",
+        "Airport_Name": "El Golea",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "El Oued",
+        "Airport_Code": "ELU",
+        "Airport_Name": "Guemar",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Gara Djebilet",
+        "Airport_Code": "GBB",
+        "Airport_Name": "Gara Djebilet",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Ghardaia",
+        "Airport_Code": "GHA",
+        "Airport_Name": "Noumerate",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Hassi Messaoud",
+        "Airport_Code": "HME",
+        "Airport_Name": "Oued Irara Apt",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Illizi",
+        "Airport_Code": "VVZ",
+        "Airport_Name": "Illizi",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "In Amenas",
+        "Airport_Code": "IAM",
+        "Airport_Name": "In Amenas",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "In Guezzam",
+        "Airport_Code": "INF",
+        "Airport_Name": "In Guezzam",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "In Salah",
+        "Airport_Code": "INZ",
+        "Airport_Name": "In Salah",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Jijel",
+        "Airport_Code": "GJL",
+        "Airport_Name": "Jijel",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Kouba",
+        "Airport_Code": "KDF",
+        "Airport_Name": "Kouba",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Mascara",
+        "Airport_Code": "MUW",
+        "Airport_Name": "Mascara",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Mechria",
+        "Airport_Code": "MZW",
+        "Airport_Name": "Mechria",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Mostaganem",
+        "Airport_Code": "MQV",
+        "Airport_Name": "Mostaganem",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Oran",
+        "Airport_Code": "ORN",
+        "Airport_Name": "Es Senia",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Oran",
+        "Airport_Code": "TAF",
+        "Airport_Name": "Tafaraoui",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Ouargla",
+        "Airport_Code": "OGX",
+        "Airport_Name": "Ain Beida",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Setif",
+        "Airport_Code": "QSF",
+        "Airport_Name": "Setif",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Sidi Belabbes",
+        "Airport_Code": "BFW",
+        "Airport_Name": "Sidi Belabbes",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Skikda",
+        "Airport_Code": "SKI",
+        "Airport_Name": "Skikda",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Tamanrasset",
+        "Airport_Code": "TMR",
+        "Airport_Name": "Aguemar",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    },
+    {
+        "Country_name": "Algeria",
+        "City_name": "Tbessa",
+        "Airport_Code": "TEE",
+        "Airport_Name": "Tbessa",
+        "Country_Abbrev.": "DZ",
+        "World_Area_Code": "500"
+    }]

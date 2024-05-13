@@ -9,10 +9,37 @@ import TopRoutes from "./TopRoutes/TopRoutes";
 import Contact from "./Contact/Contact";
 
 
-const Home = () => {
 
+
+
+const Home = () => {
+    
+       
+
+        // useEffect(() => {
+        
+        //   fetch('./airport_codes.csv')
+        //     .then((response) => response.text())
+        //     .then((csvText) => {
+        //       const rows = csvText.split('\n');
+        //       const headers = rows[0].split(',');
+        //       const data = rows.slice(1).map((row) => {
+        //         const values = row.split(',');
+        //         return headers.reduce((obj, header, index) => {
+        //           obj[header] = values[index];
+        //           return obj;
+        //         }, {});
+        //       });
+        //       setAirportData(data);
+        //       console.log('111111111111');
+        //     })
+        //     .catch((error) => console.error('Error loading CSV data:', error));
+        // }, []);
     return (
         <div>
+      
+
+    
             <div className="slider_banner ">
                 <Banner></Banner>
                 <div className="slider_card container">
@@ -25,6 +52,7 @@ const Home = () => {
             <CallToAction></CallToAction>
             <TopRoutes></TopRoutes>
             <Contact></Contact>
+            
             
 
         </div>

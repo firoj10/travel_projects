@@ -10,7 +10,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import SearchInput from './SearchInput';
 import Counter from './Counter';
 
-import Papa from 'papaparse';
+
 
 
 
@@ -110,27 +110,6 @@ const SearchCard = () => {
     }, []);
 
 
-    // const [airportDatas, setAirportDatas] = useState([]);
-
-    // useEffect(() => {
-    //     const fetchData = async () => {
-    //         try {
-    //             const response = await fetch('./airport_data.csv');
-    //             if (!response.ok) {
-    //                 throw new Error('Network response was not ok');
-    //             }
-    //             const csvData = await response.text();
-    //             const parsedData = Papa.parse(csvData, { header: true }).data;
-    //             console.log(JSON.stringify(parsedData, null, 2)); // Logging parsedData in JSON format
-    //             setAirportDatas(parsedData);
-    //         } catch (error) {
-    //             console.error('Error fetching data:', error);
-    //         }
-    //     };
-    
-    //     fetchData();
-    // }, []);
-    
 
 
 

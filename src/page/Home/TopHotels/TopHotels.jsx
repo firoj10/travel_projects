@@ -18,9 +18,9 @@ const TopHotels = () => {
             <div className='arrow_line'></div>
             </div>
             <div className='topHotels_gallery'> 
-                <div className="row  d-flex justify-content-between mx-0" >
+                <div className="row  " >
                    
-                    <div className="col-lg-4 " style={{padding: "8px 12px", }}>
+                    <div className="col-12 col-md-6 col-lg-4 topHotels_content" >
                        <div className='topHotels__img_div card'>
                         <div className='topHotels_img'>
                         <img  src={img1} alt="" />
@@ -33,7 +33,7 @@ const TopHotels = () => {
                        </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 " style={{padding: "8px 12px", }}>
+                    <div className="col-12 col-md-6 col-lg-4 topHotels_content" >
                        <div className='topHotels__img_div card'>
                         <div className='topHotels_img'>
                         <img  src={img2} alt="" />
@@ -46,7 +46,7 @@ const TopHotels = () => {
                        </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 " style={{padding: "8px 12px", }}>
+                    <div className="col-12 col-md-6 col-lg-4 topHotels_content" >
                        <div className='topHotels__img_div card'>
                         <div className='topHotels_img'>
                         <img  src={img3} alt="" />
@@ -59,7 +59,7 @@ const TopHotels = () => {
                        </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 " style={{padding: "8px 12px", }}>
+                    <div className="col-12 col-md-6 col-lg-4 topHotels_content" >
                        <div className='topHotels__img_div card'>
                         <div className='topHotels_img'>
                         <img  src={img4} alt="" />
@@ -72,7 +72,7 @@ const TopHotels = () => {
                        </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 " style={{padding: "8px 12px", }}>
+                    <div className="col-12 col-md-6 col-lg-4 topHotels_content" >
                        <div className='topHotels__img_div card'>
                         <div className='topHotels_img'>
                         <img  src={img5} alt="" />
@@ -85,7 +85,7 @@ const TopHotels = () => {
                        </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 " style={{padding: "8px 12px", }}>
+                    <div className="col-12 col-md-6 col-lg-4 topHotels_content" >
                        <div className='topHotels__img_div card'>
                         <div className='topHotels_img'>
                         <img  src={img6} alt="" />

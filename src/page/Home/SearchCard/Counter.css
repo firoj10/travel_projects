@@ -1,0 +1,13 @@
+.increments-btn{
+    padding: 0px 10px;
+  background-color: #5856d6;
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
+.increments-count{
+    font-size: 20px;
+
+    margin: 6px;
+}
