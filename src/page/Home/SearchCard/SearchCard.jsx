@@ -10,83 +10,89 @@ import 'react-datepicker/dist/react-datepicker.css';
 import SearchInput from './SearchInput';
 import Counter from './Counter';
 
-import Papa from 'papaparse';
+
 
 
 
 const SearchCard = () => {
+    const [selectedClass, setSelectedClass] = useState('Economy');
 
     const [showCard, setShowCard] = useState(false);
     const [adults, setAdults] = useState(1);
     const [children, setChildren] = useState(0);
-    const [infants, setInfants] = useState(0);
-  
+    // const [infants, setInfants] = useState(0);
+
+
+
+    const handleClassChange = (event) => {
+        setSelectedClass(event.target.value);
+    };
     const toggleCard = () => {
-      setShowCard(!showCard);
+        setShowCard(!showCard);
     };
-  
+
     const incrementCount = (type) => {
-      switch (type) {
-        case 'adults':
-          if (adults < 10) setAdults(adults + 1);
-          break;
-        case 'children':
-          if (children < 10) setChildren(children + 1);
-          break;
-        case 'infants':
-          if (infants < 10) setInfants(infants + 1);
-          break;
-        default:
-          break;
-      }
+        switch (type) {
+            case 'adults':
+                if (adults < 10) setAdults(adults + 1);
+                break;
+            case 'children':
+                if (children < 10) setChildren(children + 1);
+                break;
+            // case 'infants':
+            //     if (infants < 10) setInfants(infants + 1);
+            //     break;
+            default:
+                break;
+        }
     };
-  
+
     const decrementCount = (type) => {
-      switch (type) {
-        case 'adults':
-          if (adults > 0) setAdults(adults - 1);
-          break;
-        case 'children':
-          if (children > 0) setChildren(children - 1);
-          break;
-        case 'infants':
-          if (infants > 0) setInfants(infants - 1);
-          break;
-        default:
-          break;
-      }
+        switch (type) {
+            case 'adults':
+                if (adults > 1) setAdults(adults - 1);
+                break;
+            case 'children':
+                if (children > 0) setChildren(children - 1);
+                break;
+            // case 'infants':
+            //     if (infants > 0) setInfants(infants - 1);
+            //     break;
+            default:
+                break;
+        }
     };
-  
 
 
 
 
-//date_picker_code_start
+
+    //date_picker_code_start
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
-  
+
     const handleDateChange = (dates) => {
-      const [start, end] = dates;
-      setStartDate(start);
-      setEndDate(end);
+        const [start, end] = dates;
+        setStartDate(start);
+        setEndDate(end);
     };
-  
+
     const formatDateRange = () => {
         if (startDate && endDate) {
-          const startFormatted = startDate.toLocaleDateString('en-US', { day: 'numeric', month: 'short' });
-          const endFormatted = endDate.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
-          const endYear = endDate.getFullYear();
-          const startYear = startDate.getFullYear();
-          
-          
-          const yearPart = endYear !== startYear ? `, ${endYear}` : '';
-          
-          return `${startFormatted} - ${endFormatted}${yearPart}`;
+            const startFormatted = startDate.toLocaleDateString('en-US', { day: 'numeric', month: 'short' });
+            const endFormatted = endDate.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
+            const endYear = endDate.getFullYear();
+            const startYear = startDate.getFullYear();
+
+
+            const yearPart = endYear !== startYear ? `, ${endYear}` : '';
+
+            return `${startFormatted} - ${endFormatted}${yearPart}`;
         }
         return '';
-      };
+    };
 
-      //date_picker_code_end
+    //date_picker_code_end
 
 
 
@@ -127,10 +133,10 @@ const SearchCard = () => {
     //             console.error('Error fetching data:', error);
     //         }
     //     };
-    
+
     //     fetchData();
     // }, []);
-    
+
 
 
 
@@ -146,7 +152,7 @@ const SearchCard = () => {
 
     return (
         <div className=' '>
-            <div className=' card ' style={{ boxShadow: '0px 0px 32px 0px #00000029',  }}>
+            <div className=' card ' style={{ boxShadow: '0px 0px 32px 0px #00000029', }}>
                 <Tabs >
                     <TabList>
                         <Tab><button className='hotels_btn'>Flights</button></Tab>
@@ -216,22 +222,21 @@ const SearchCard = () => {
                                             }}
                                             isClearable={true}
                                             /> */}
-                                        <div>
-                                            <div className='check-in-check-out d-none'>
-                                                <input
-                                                type="text"
-                                                // value={startDate && endDate ? `${startDate.toLocaleDateString()} - ${endDate.toLocaleDateString()}` : ''}
-                                                value={formatDateRange()}
-                                                placeholder='Select Date Range'
-                                                className="form-control search_input"
-                                                id="exampleInputEmail1"
-                                                aria-describedby="emailHelp"
-                                                readOnly
-                                                />
-                                                <p className='clanders'>
-                                                <LuCalendarDays className='icons' />
-                                                </p>
-                                            </div>
+                                            <div>
+                                                <div className='check-in-check-out d-none'>
+                                                    <input
+                                                        type="text"
+                                                        // value={startDate && endDate ? `${startDate.toLocaleDateString()} - ${endDate.toLocaleDateString()}` : ''}
+                                                        value={formatDateRange()}
+                                                        placeholder='Select Date Range'
+                                                        className="form-control search_input"
+                                                        id="exampleInputEmail1"
+                                                        aria-describedby="emailHelp"
+                                                        readOnly
+                                                    />
+                                                   
+                                                </div>
+                                                <div className=''> 
                                                 <DatePicker
                                                     className="form-control search_input border-0"
                                                     placeholderText="Select Date Range"
@@ -241,52 +246,97 @@ const SearchCard = () => {
                                                     monthsShown={2}
                                                     onChange={handleDateChange}
                                                     isClearable={false}
-                                                    style={{zIndex:'999'}}
+                                                    style={{ zIndex: '999' }}
                                                     dateFormat="d MMM yyyy"
                                                 />
-                                            </div>
                                                
+                                            </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                     <div className="col-md-6 col-xl-3 passengers" >
-                                        {/* <div className="search_div">
+                                        <div className="search_div" >
                                             <label className="form-label  search_label">Passengers</label>
                                             <div className='check-in-check-out'>
-                                                <input type="email" placeholder='Business / 1 Adults / 2 Childs' className="form-control search_input" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                                                <p className='clanders'><RiArrowDownSLine className='icons' /></p>
-                                            </div>
+                                               <div>
+                                               <SearchInput
+                                                    placeholder={`${selectedClass} /${adults} Adults / ${children} Children  `}
+                                                    onClick={toggleCard}
+                                                />
+                                                
+                                               </div>
+                                                {showCard && (
+                                                    <div className="card px-3 py-2" style={{ position: 'fixed' }}>
+                                                        <div className="class-options row">
+                                                            <div className='col-md-6'>
+                                                                <label>
+                                                                    <input
+                                                                        type="radio"
+                                                                        value="Economy Plus"
+                                                                        checked={selectedClass === 'Economy Plus'}
+                                                                        onChange={handleClassChange}
+                                                                    />
+                                                                    Economy Plus
+                                                                </label>
+                                                            </div>
 
-                                        </div> */}
-                                              <div className="search_div">
-      <div className='check-in-check-out'>
-        <SearchInput
-          placeholder={`${adults} Adults , ${children} Children ,${infants} Infants`}
-          onClick={toggleCard}
-        />
-        {showCard && (
-          <div className="card">
-            <Counter
-              label="Adults"
-              count={adults}
-              onIncrement={() => incrementCount('adults')}
-              onDecrement={() => decrementCount('adults')}
-            />
-            <Counter
-              label="Children"
-              count={children}
-              onIncrement={() => incrementCount('children')}
-              onDecrement={() => decrementCount('children')}
-            />
-            <Counter
-              label="Infants"
-              count={infants}
-              onIncrement={() => incrementCount('infants')}
-              onDecrement={() => decrementCount('infants')}
-            />
-          </div>
-        )}
-      </div>
-    </div>
+                                                            <div className='col-md-6'>
+                                                                <label>
+                                                                    <input
+                                                                        type="radio"
+                                                                        value="Economy"
+                                                                        checked={selectedClass === 'Economy'}
+                                                                        onChange={handleClassChange}
+                                                                    />
+                                                                    Economy
+                                                                </label>
+                                                            </div>
+                                                            <div className='col-md-6'>
+                                                                <label>
+                                                                    <input
+                                                                        type="radio"
+                                                                        value="Business"
+                                                                        checked={selectedClass === 'Business'}
+                                                                        onChange={handleClassChange}
+                                                                    />
+                                                                    Business
+                                                                </label>
+                                                            </div>
+                                                            <div className='col-md-6'>
+                                                                <label>
+                                                                    <input
+                                                                        type="radio"
+                                                                        value="First Class"
+                                                                        checked={selectedClass === 'First Class'}
+                                                                        onChange={handleClassChange}
+                                                                    />
+                                                                    First Class
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <Counter
+                                                            label="Adults"
+                                                            count={adults}
+                                                            onIncrement={() => incrementCount('adults')}
+                                                            onDecrement={() => decrementCount('adults')}
+                                                        />
+                                                        <Counter
+                                                            label="Children"
+                                                            count={children}
+                                                            onIncrement={() => incrementCount('children')}
+                                                            onDecrement={() => decrementCount('children')}
+                                                        />
+                                                        {/* <Counter
+                                                            label="Infants"
+                                                            count={infants}
+                                                            onIncrement={() => incrementCount('infants')}
+                                                            onDecrement={() => decrementCount('infants')}
+                                                        /> */}
+                                                    </div>
+                                                )}
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
